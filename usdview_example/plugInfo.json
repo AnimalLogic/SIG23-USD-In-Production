@@ -1,0 +1,16 @@
+{
+    "Plugins": [
+        {
+            "Type": "python",
+            "Name": "edit_example_with_maya",
+            "Info": {
+                "Types": {
+                    "edit_example_with_maya.EditPlugin": {
+                        "bases": ["pxr.Usdviewq.plugin.PluginContainer"],
+                        "displayName": "Usdview Tutorial Plugin"
+                    }
+                }
+            }
+        }
+    ]
+}
